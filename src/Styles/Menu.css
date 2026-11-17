@@ -1,0 +1,121 @@
+
+.menu-page {
+    width: 100%;
+    min-height: 75vh;
+    padding: 60px 25px;
+    color: white;
+    text-align: center;
+
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.60),
+        rgba(0, 0, 0, 0.55)
+    ), url('../Assets/MenuBackground.png');
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.menu-page > h1 {
+    color: #c9a45c;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.menu-page > p {
+    color: #dddddd;
+    font-size: 17px;
+    margin-bottom: 40px;
+}
+
+.menu-items {
+    width: 100%;
+    max-width: 1150px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+}
+
+.food-card {
+    background-color: #202020;
+    border: 1px solid #8f7540;
+    border-radius: 8px;
+    padding: 18px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+    min-width: 0;
+}
+
+.food-card img {
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 18px;
+}
+
+.food-card h2 {
+    color: #c9a45c;
+    font-size: 21px;
+    min-height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.food-card p {
+    color: #dddddd;
+    line-height: 1.6;
+    min-height: 52px;
+    margin: 10px 0;
+}
+
+.food-card h3 {
+    color: white;
+    font-size: 21px;
+    margin: 12px 0 18px;
+}
+
+.food-card button {
+    width: 100%;
+    max-width: 200px;
+    background-color: #c9a45c;
+    color: #151515;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 18px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: auto;
+}
+
+.food-card button:hover {
+    background-color: #e0c47f;
+}
+
+@media (max-width: 850px) {
+    .menu-items {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 550px) {
+    .menu-items {
+        grid-template-columns: 1fr;
+    }
+
+    .menu-page {
+        padding: 40px 18px;
+        background-attachment: scroll;
+    }
+
+    .menu-page > h1 {
+        font-size: 32px;
+    }
+}

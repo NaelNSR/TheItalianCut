@@ -1,0 +1,124 @@
+.home {
+    width: 100%;
+    background-color: #202020;
+    color: white;
+}
+
+/* HOME BACKGROUND IMAGE */
+
+.home-hero {
+    width: 100%;
+    min-height: 520px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    padding: 50px 20px;
+}
+
+.home-content {
+    width: 100%;
+    max-width: 750px;
+    padding: 30px;
+}
+
+.subtitle {
+    color: #c9a45c;
+    letter-spacing: 4px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.home-content h1 {
+    color: #c9a45c;
+    font-size: 48px;
+    margin-bottom: 25px;
+}
+
+.home-content p {
+    font-size: 18px;
+    color: #eeeeee;
+    line-height: 1.7;
+}
+
+.menu-button {
+    display: inline-block;
+    background-color: #c9a45c;
+    color: #151515;
+    text-decoration: none;
+    padding: 14px 28px;
+    margin-top: 30px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.menu-button:hover {
+    background-color: #e0c47f;
+}
+
+/* POPULAR DISHES */
+
+.popular-dishes {
+    width: 100%;
+    max-width: 1150px;
+    margin: auto;
+    padding: 65px 25px;
+    text-align: center;
+}
+
+.popular-dishes h2 {
+    color: #c9a45c;
+    font-size: 32px;
+    margin-bottom: 35px;
+}
+
+.dishes {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 25px;
+}
+
+.dish {
+    flex: 1;
+    background-color: #151515;
+    border: 1px solid #8f7540;
+    padding: 30px 20px;
+    border-radius: 6px;
+    min-height: 150px;
+}
+
+.dish h3 {
+    color: #c9a45c;
+    margin-bottom: 15px;
+}
+
+.dish p {
+    color: #dddddd;
+    line-height: 1.6;
+}
+
+/* MOBILE RESPONSIVENESS */
+
+@media (max-width: 700px) {
+    .home-hero {
+        min-height: 430px;
+    }
+
+    .home-content h1 {
+        font-size: 34px;
+    }
+
+    .home-content p {
+        font-size: 16px;
+    }
+
+    .dishes {
+        flex-direction: column;
+    }
+}
