@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# The Italian Cut
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Description
 
-## Available Scripts
+The Italian Cut is a restaurant website developed using React.js. The website allows visitors to explore an Italian restaurant, view its food menu, add food items to a shopping cart, and calculate the total price of their selected items.
 
-In the project directory, you can run:
+The project features a modern black-and-gold design inspired by Italian restaurants. It includes five main pages: Home, Menu, About, Contact Us, and Cart.
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React.js
+- JavaScript
+- HTML
+- CSS
+- React Router DOM
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Setup Instructions
 
-### `npm test`
+Follow these steps to run the project locally:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository:
 
-### `npm run build`
+   git clone YOUR_GITHUB_REPOSITORY_URL
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Navigate to the project directory:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   cd the-italian-cut
 
-### `npm run eject`
+3. Install the required dependencies:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   npm install
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. Start the React development server:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   npm start
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Screenshots of the UI
 
-## Learn More
+The following screenshots demonstrate the main pages and features of The Italian Cut website.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 1. Home Page
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Home Page](Screenshots/HomeWeb.png)
 
-### Code Splitting
+### 2. Menu Page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![Menu Page](Screenshots/MenuWeb.png)
 
-### Analyzing the Bundle Size
+### 3. Shopping Cart
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![Cart Page](Screenshots/CartWeb.png)
 
-### Making a Progressive Web App
+### 4. About 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+![About Page](Screenshots/AboutWeb.png)
 
-### Advanced Configuration
+### 5. Contact Us
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+![Contact Us Page](Screenshots/ContactWeb.png)
 
-### Deployment
+## Project Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Nail Nasr
 
-### `npm run build` fails to minify
+## Course
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+CSCI426 – Advanced Web Programming
