@@ -20,8 +20,7 @@ Follow these steps to run the project locally:
 
 1. Clone the repository:
 
-   git clone YOUR_GITHUB_REPOSITORY_URL
-
+   git clone https://github.com/NaelNSR/TheItalianCut
 
 2. Navigate to the project directory:
 
@@ -62,6 +61,10 @@ The following screenshots demonstrate the main pages and features of The Italian
 ## Project Author
 
 Nail Nasr
+
+## GitHub Repository
+
+https://github.com/NaelNSR/TheItalianCut
 
 ## Course
 
